@@ -95,7 +95,7 @@
         'Location: Jeddah Super Dome', '',
         'Please contact me to confirm a meeting.'
       ].join('\n');
-      const url = `mailto:reservation@zaer.sa?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(latestBody)}`;
+      const url = `mailto:test@zaer.sa?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(latestBody)}`;
       emailLink.href = url;
       status.textContent = 'Your email app should open with a prepared message. Please send that email to ZAER to complete your request. This is not a confirmed booking.';
       status.hidden = false;
